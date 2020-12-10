@@ -1,0 +1,45 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .price-box1, .price-box2 {
+    padding: 0 15px;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .price-box1, .price-box2 {
+    padding: 0 10px;
+  }
+
+  .banner-content p {
+    font-size: 14px;
+  }
+}
+
+/* extra small */
+@media (max-width: 576px) {
+  .banner .banner-content h1 {
+    font-size: 28px;
+  }
+
+  .banner .banner-content p {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+
+  .main-menu ul {
+    grid-template-columns: 1fr;
+  }
+
+  element {}
+
+  .blog {
+    grid-template-columns: 1fr;
+  }
+}
